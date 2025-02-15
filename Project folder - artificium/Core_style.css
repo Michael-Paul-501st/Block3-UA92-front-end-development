@@ -1,0 +1,80 @@
+main{/*This is the core styling for the webpage*/
+background-color: #121212;
+color: #ffffff;
+}
+.sidenav {/*this is the syling for the sidenav*/
+height: 100%; 
+width: 0; 
+position: fixed; 
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #282828; 
+overflow-x: hidden; 
+padding-top: 60px; 
+transition: 0.5s; 
+}
+.sidenav a {/*the syling of the link in the sidenav*/
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: #282828;
+display: block;
+transition: 0.3s;
+}
+.sidenav a:hover {/*This is the code when the link are hovered*/
+color: #f1f1f1;
+}
+.sidenav .closebtn {/*this is the code for the close button*/
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
+#Header{/*This is the styling for the header*/
+position: sticky;
+display: flex;
+align-items: center;
+top: 0; 
+padding: 1% 1%; 
+background: #181721; 
+width: 103.12%;
+height: 100px;
+margin-left: -2%;
+margin-top: -2%; 
+z-index: 2;
+}
+#footer{/* This is the styling for the footer*/
+background: #181721;
+color: #ffffff;
+width: 103.12%;
+margin-left: -2%; 
+padding: 1% 1%; 
+margin-bottom: -2%;
+}
+#main {/*This is the styling for the main*/
+transition: margin-left .5s;
+padding: 20px;
+}
+@media screen and (max-height: 450px) {/*THis is the media when the height changes*/
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
+a:link {/*This is the link standerd*/
+color: #ffffff;
+}
+a:visited {/*This is the link that wasn't*/
+color: #ffffff;
+}
+a:hover {/*This is the link that is hovered*/
+color: #d01a1a;
+}
+a:active {/*This is the link when activated*/
+color: #d01a1a;
+}
+* {box-sizing: border-box}/*The box sizing*/
+button{/*The button design*/
+background-color: #2c43ba;
+color:white;
+}

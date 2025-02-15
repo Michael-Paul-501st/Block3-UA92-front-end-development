@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html  lang="en">
+    <head>
+        <title>Artificium About Copyright</title><!-- This is the  title for the webpage -->
+        <link rel="icon" type="img/png" href="Logo-2.png"><!-- This is the icon img that is display on the webpage tab-->
+        <meta charset="UTF-8"><!-- This set the charictar set -->
+        <!-- This is the code for bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
+        <link rel="stylesheet" href="Core_style.css"><!-- This the core CSS code-->
+        <style>
+            img {vertical-align: middle;}/*Set image to align to the middle*/
+        </style>
+    </head>
+    <main>
+      <div id="mySidenav" class="sidenav"><!-- This is the content of the side navigation bar of the website -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><!-- this will clost the side navigation bar  -->
+        <a href="Login_sign-up_Artificium.html">Account</a><!-- This will take the user to login or sign up -->
+        <a href="Post_lists.html">Post</a><!-- This will take the user to the post lists -->
+        <a href="mailto:artificiumltd@gmail.com">Contact</a><!-- This will take them to email the company email -->
+        <button type="button" id="DarkMode">Dark Mode</button><!-- This is a button that will activate and deactivate darkMode -->
+      </div>
+      <div id="main">
+        <div id= "Header" ><!-- This is the header section of the website-->
+          <span onclick="openNav()" > <!-- This is will open the navigation bar-->
+            <img src="Three-bars.png" alt="Three-bars" class="img-fluid" style="height: 80px;">
+          </span>
+          <a href="HomePage.html"><!-- This is a link to the homepage-->
+            <H1  style="height: 100%; width: 100%; display: flex; padding-left: 10%; align-items: center; text-align: center;"><!-- This is the formating for the heading-->
+              <img src="Logo-2.png" alt="Artificium_Logo" class="img-fluid" style="height: 60px; width: 50%;"><!-- This is formating for the image that the heading is-->
+              rtificium
+            </H1>
+          </a>
+        </div>
+            <div>
+                <br><!-- This is just the text for terms and condition-->
+                <h1>About Terms</h1>
+                <h2>Site Usage Terms</h2>
+                <p>By agreeing to these Terms of Service, you represent that you are at least the age of majority in your state or province of residence, or that you are the age of majority in your state or province of residence and you have given us your consent to allow any of your minor dependents to use this site.</p>
+                <p>Access to services may require you to register an account. This could require you to provide information about yourself such as name, email address and credit card details. The account information and the use of data is subject to our Privacy Policy</p>
+                <p>You may not use our products for any illegal or unauthorized purpose nor may you, in the use of the Service, violate any laws in your jurisdiction (including but not limited to copyright laws). You are responsible for complying with any law, rules, and regulations applicable to you.</p>
+                <p>You must not transmit any worms or viruses or any code of a destructive nature.</p>
+                <p>A breach or violation of any of our Terms can result in an immediate termination of your Services. We reserve the right to remove or restrict your account and to remove content such as websites and other user-created data at any time at our sole and absolute discretion.</p>
+                <h2>General Conditions</h2>
+                <p>We reserve the right to refuse service to anyone for any reason at any time.</p>
+                <p>You understand that your content may be transferred unencrypted and involve (a) transmissions over various networks, and (b) changes to conform and adapt to technical requirements of connecting networks or devices.</p>
+                <p>Credit card information is always encrypted during transfer over networks, and are processed and handled by our selected Payment Service Providers. We only preserve the last four-digit and expiry date of your Credit card. This is, among other things, to let you know in advance if your Credit card is soon to expire, so that we can assure the continuous running of your Services with us.</p>
+                <p>You agree not to reproduce, duplicate, copy, sell, resell or exploit any portion of the Service, use of the Service, or access to the Service or any contact on the website through which the service is provided, without express written permission by us.</p>
+                <h2>Fair use</h2>
+                <p>Fair use defines our exceptions to the rights protected by copyright laws.</p>
+                <p>Fair use of copyright material includes</p>
+                <ul>
+                    <li>In research</li>
+                    <li>In news reporting</li>
+                    <li>In citations</li>
+                    <li>In commentary</li>
+                </ul>
+            </div>
+            <div id="footer"><!-- This is the footer -->
+              <div>
+                  <p></p>
+                  <a href="https://www.linkedin.com/in/artificium-company-813198348/"><img src="linkedin-png.png" alt="https://www.linkedin.com/in/artificium-company-813198348/" style="height: 70px;"></a><!-- This is a link to the social media pages with the images -->
+                  <a href="https://www.facebook.com/profile.php?id=61571963742692"><img src="Facebooklogo.png" alt="https://www.facebook.com/profile.php?id=61571963742692" style="height: 85px;"></a>
+                  <a href="https://x.com/ArtificiumLTD"><img src="twitterlogo.png" alt="https://x.com/ArtificiumLTD" style="height: 60px;"></a>
+              </div>
+              <p><a href="Privacy_policy.html">Privacy policy</a></p><!-- This is a link to the privacy policy -->
+              <p><a href="CopyRight_policy.html">Copyright notice</a></p><!-- This is a link to the copyright notice -->
+              <p>newsletter</p>
+              <p><a href="mailto:artificiumltd@gmail.com">contact info</a></p><!-- This is a link to the email -->
+              <p>Address</p>
+              <p><img src="Logo-1.png" alt="Artificium_Logo" style="height: 100px;"></p>
+            </div>
+        </div>
+    </main>
+
+<script id = "navigation_code">//This is the code for opening and closing the navigation bar
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
+</script>
+<script src="DarkMode_code.js"></script>
+</html>
